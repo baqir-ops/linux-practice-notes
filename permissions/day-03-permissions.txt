@@ -1,0 +1,10 @@
+Day 3 -Linux permissions
+Learned concepts:
+- User, Group,Others
+- Read(r),Write(w),Execute(x)
+-chmod symbolic and numeric
+-File vs directory permissions
+
+Examples:
+chmod 644 file.txt
+chmod 755 script.sh
