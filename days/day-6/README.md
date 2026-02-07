@@ -18,52 +18,52 @@ Learn and practice SSH fundamentals used by DevOps engineers for secure remote s
 ---
 
 ## 🔹 SSH Installed & Running
-![SSH Installed](./ssh-installed-and-running.png)
+![SSH Installed](./images/ssh-installed-and-running.png)
 
 ---
 
 ## 🔹 SSH Key Generation (ed25519)
-![SSH Key Generation](./ssh-key-generation-ed25519.png)
+![SSH Key Generation](./images/ssh-key-generation-ed25519.png)
 
 ---
 
 ## 🔹 SSH Key Fingerprint & Randomart
-![SSH Key Fingerprint](./ssh-key-fingerprint-and-randomart.png)
+![SSH Key Fingerprint](./images/ssh-key-fingerprint-and-randomart.png)
 
 ---
 
 ## 🔹 Key-Based Authentication Setup
-![Key Based Auth](./ssh-key-based-authentication-setup.png)
+![Key Based Auth](./images/ssh-key-based-authentication-setup.png)
 
 ---
 
 ## 🔹 SSH Listening on Port 22
-![Port 22](./ssh-listening-on-port-22.png)
+![Port 22](./images/ssh-listening-on-port-22.png)
 
 ---
 
 ## 🔹 SSH Localhost Login Successful
-![SSH Login](./ssh-localhost-login-success.png)
+![SSH Login](./images/ssh-localhost-login-success.png)
 
 ---
 
 ## 🔹 SSH Login and Logout
-![SSH Logout](./ssh-login-and-logout.png)
+![SSH Logout](./images/ssh-login-and-logout.png)
 
 ---
 
 ## 🔹 SSH Service & Socket Status
-![SSH Socket](./ssh-service-start-and-socket-status.png)
+![SSH Socket](./images/ssh-service-start-and-socket-status.png)
 
 ---
 
 ## 🔹 SSH Service Running Status
-![SSH Running](./ssh-service-status-running.png)
+![SSH Running](./images/ssh-service-status-running.png)
 
 ---
 
 ## 🔹 Systemd Running Services
-![Systemd Services](./systemd-running-services.png)
+![Systemd Services](./images/systemd-running-services.png)
 
 ---
 
