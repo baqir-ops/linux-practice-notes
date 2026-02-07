@@ -6,7 +6,7 @@
 ![user-id](images/day-7-user-id.png)
 
 ### Group Management
-![group-created](images/day7-group-created.png)
+![group-created](images/day-7-group-created.png)
 ![groups-output](images/day-7-groups-outputs.png)
 ![user-added-group](images/day-7-user-added-to-devops-group.png)
 ![user-added-team](images/day-7-user-added-to-devops-team.png)
@@ -20,12 +20,12 @@
 ![ownership-changed](images/day-7-ownership-changed-root-devops.png)
 ![sgid-directory](images/day-7-sgid-directory.png)
 ![sgid-inheritance](images/day-7-sgid-file-inheritance.png)
-![shared-dir](images/day7-devops-shared-dir-sgid.png)
+![shared-dir](images/day-7-devops-shared-dir-sgid.png)
 
 ### Special Permissions
 ![suid](images/day-7-suid-permissions.png)
 ![sticky-bit](images/day-7-sticky-bit-directory.png)
-![numeric-special](images/numeric-special-permissions.png)
+![numeric-special](images/day-7-numeric-special-permissions.png)
 
 ### System Context
 ![systemd](images/day-7-systemd-running-services.png)
