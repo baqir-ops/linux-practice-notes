@@ -2,7 +2,7 @@
 # Day 5 – Linux Process Management (Hands-On)
 ### 🔹 Process Listing
 ![ps aux](images/day5-ps-aux.png)
-![ps grep](images/day5-ps-grep.png)
+
 
 ### 🔹 Real-time Monitoring
 ![top](images/day5-top.png)
@@ -102,13 +102,16 @@ Not all processes should run in foreground
 Long-running services must survive logout
 Proper signal usage prevents system instability
 Process management is critical for production troubleshooting
+
+
 🎯 Real-World Relevance
 These skills are used daily in:
 DevOps environments
 Cloud server management
 Production incident handling
 CI/CD pipelines
-Server automation
+Server automation.
+
 📌 Status
 ✅ Day 5 Completed
 
