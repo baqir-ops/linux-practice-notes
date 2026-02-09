@@ -32,7 +32,7 @@ Searches recursively for files ending with .png
 
 ---
 
-##Step 2: Find files and directories by type
+## Step 2: Find files and directories by type
 
 Find only directories
 
@@ -54,7 +54,7 @@ find . -type f
 
 ---
 
-##Step 3: Find files by size
+## Step 3: Find files by size
 
 **Command:**
 ```bash
@@ -67,7 +67,7 @@ Finds files larger than 1 MB
 
 ---
 
-##Step 4: Viewing system logs using journalctl
+## Step 4: Viewing system logs using journalctl
 
 View all logs
 
@@ -103,11 +103,11 @@ View last 20 logs of a specific service
 journalctl -u systemd-hostnamed -n 20
 ```
 **Screenshot**
-![Last 20 log  of systemd-hostnamed](./images/day8-journalctl-hostnamed-last20.png
+![Last 20 log  of systemd-hostnamed](./images/day8-journalctl-hostnamed-last 20.png)
 
 ---
 
-##Step 5: Checking service status using systemctl
+## Step 5: Checking service status using systemctl
 
 Check hostname service status
 
@@ -116,11 +116,11 @@ Check hostname service status
 systemctl status systemd-hostnamed
 ```
 **Screenshot**
-![systemed-hostnamed service status](./images/day8-systemctl-hostnamed-status.png
+![systemed-hostnamed service  status](./images/day8-systemctl-hostnamed-status.png)
 
 ---
 
-##Step 6: Managing cron service
+## Step 6: Managing cron service
 
 Check cron status
 
