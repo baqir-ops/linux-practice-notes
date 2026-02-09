@@ -36,6 +36,7 @@ Searches recursively for files ending with .png
 
 Find only directories
 
+**Command:**
 ```Bash
 find . -type d
 ```
@@ -44,6 +45,7 @@ find . -type d
 
 Find only files
 
+**Command:**
 ```Bash
 find . -type f
 ```
@@ -54,8 +56,7 @@ find . -type f
 
 ##Step 3: Find files by size
 
-Command:
-
+**Command:**
 ```Bash
 find . -size +1M
 ```
@@ -70,6 +71,7 @@ Finds files larger than 1 MB
 
 View all logs
 
+**Command:**
 ```Bash
 journalctl
 ```
@@ -78,6 +80,7 @@ journalctl
 
 View logs from today
 
+**Command:**
 ```Bash
 journalctl --since today
 ```
@@ -86,6 +89,7 @@ journalctl --since today
 
 View error logs only
 
+**Command:**
 ```Bash
 journalctl -p err
 ```
@@ -94,6 +98,7 @@ journalctl -p err
 
 View last 20 logs of a specific service
 
+**Command:**
 ```Bash
 journalctl -u systemd-hostnamed -n 20
 ```
@@ -106,6 +111,7 @@ journalctl -u systemd-hostnamed -n 20
 
 Check hostname service status
 
+**Command:**
 ```Bash
 systemctl status systemd-hostnamed
 ```
@@ -118,6 +124,7 @@ systemctl status systemd-hostnamed
 
 Check cron status
 
+**Command:**
 ```Bash
 systemctl status cron
 ```
@@ -126,6 +133,7 @@ systemctl status cron
 
 Stop cron service
 
+**Command:**
 ```Bash
 sudo systemctl stop cron
 ```
@@ -134,8 +142,10 @@ sudo systemctl stop cron
 
 Start cron service
 
+**Command:**
 ```Bash
-sudo systemctl start cron```
+sudo systemctl start cron
+```
 **Screenshot**
 ![Cron service started](./images/day8-cron-started.png)
 
