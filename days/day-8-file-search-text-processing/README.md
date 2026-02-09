@@ -37,7 +37,7 @@ Searches recursively for files ending with .png
 Find only directories
 
 **Command:**
-```Bash
+```bash
 find . -type d
 ```
 **Screenshots  (Directories)**
@@ -46,7 +46,7 @@ find . -type d
 Find only files
 
 **Command:**
-```Bash
+```bash
 find . -type f
 ```
 **Screenshots (Files)**
@@ -57,7 +57,7 @@ find . -type f
 ##Step 3: Find files by size
 
 **Command:**
-```Bash
+```bash
 find . -size +1M
 ```
 Explanation:
@@ -72,7 +72,7 @@ Finds files larger than 1 MB
 View all logs
 
 **Command:**
-```Bash
+```bash
 journalctl
 ```
 **Screenshot**
@@ -81,7 +81,7 @@ journalctl
 View logs from today
 
 **Command:**
-```Bash
+```bash
 journalctl --since today
 ```
 **Screenshot**
@@ -90,7 +90,7 @@ journalctl --since today
 View error logs only
 
 **Command:**
-```Bash
+```bash
 journalctl -p err
 ```
 **Screenshot**
@@ -99,11 +99,11 @@ journalctl -p err
 View last 20 logs of a specific service
 
 **Command:**
-```Bash
+```bash
 journalctl -u systemd-hostnamed -n 20
 ```
 **Screenshot**
-![Last 20 logs of systemd-hostnamed](./images/day8-journalctl-hostnamed-last20.png
+![Last 20 log  of systemd-hostnamed](./images/day8-journalctl-hostnamed-last20.png
 
 ---
 
@@ -112,7 +112,7 @@ journalctl -u systemd-hostnamed -n 20
 Check hostname service status
 
 **Command:**
-```Bash
+```bash
 systemctl status systemd-hostnamed
 ```
 **Screenshot**
@@ -125,7 +125,7 @@ systemctl status systemd-hostnamed
 Check cron status
 
 **Command:**
-```Bash
+```bash
 systemctl status cron
 ```
 **Screenshot**
@@ -134,7 +134,7 @@ systemctl status cron
 Stop cron service
 
 **Command:**
-```Bash
+```bash
 sudo systemctl stop cron
 ```
 **Screenshot**
@@ -143,7 +143,7 @@ sudo systemctl stop cron
 Start cron service
 
 **Command:**
-```Bash
+```bash
 sudo systemctl start cron
 ```
 **Screenshot**
