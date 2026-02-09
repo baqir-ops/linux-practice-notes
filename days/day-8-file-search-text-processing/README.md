@@ -103,7 +103,7 @@ View last 20 logs of a specific service
 journalctl -u systemd-hostnamed -n 20
 ```
 **Screenshot**
-![Last 20 log  of systemd-hostnamed](./images/day8-journalctl-hostnamed-last 20.png)
+![Last 20 log  of systemd-hostnamed](./images/day8-journalctl-hostnamed-last20.png)
 
 ---
 
