@@ -1,7 +1,8 @@
 ## 📦 Day 10: Archiving & Compression in Linux
 ## 📌 Objective
 Learn how to archive and compress files using tar, gzip, and zip, and how to extract them properly.
-## 📁 Directory Structure
+### 📁 Directory Structure
+```text
 
 day-10-archiving-compression/
 ├── file1.txt
@@ -21,6 +22,7 @@ day-10-archiving-compression/
 │ ├── day10-zipfile-created.png
 │ └── day10-zip-extract.png
 └── README.md
+```
 ## 🟢 Step 1: Initial Files Structure
 Created sample files for archiving practice.
 
