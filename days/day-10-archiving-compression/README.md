@@ -95,21 +95,28 @@ unzip files.zip -d extract-zip
 
 ![ZIP Extract](images/day10-zip-extract.png)
 
-## 📘 Commands Summary
+###  📘 Commands Summary
 
-Create tar
-tar -cvf file.tar files
-Create tar.gz
-tar -czvf file.tar.gz files
-Extract tar
-tar -xvf file.tar
-Extract tar.gz
-tar -xzvf file.tar.gz
-Create zip
-zip file.zip files
-Extract zip
-unzip file.zip
+# Create tar archive
+tar -cvf files.tar file1.txt file2.txt logs.log
+
+# Create tar.gz archive
+tar -czvf files.tar.gz file1.txt file2.txt logs.log
+
+# Extract tar
+tar -xvf files.tar
+
+# Extract tar.gz
+tar -xzvf files.tar.gz
+
+# Create zip archive
+zip files.zip file1.txt file2.txt logs.log
+
+# Extract zip
+unzip files.zip
+
 ## ✅ Learning Outcome
+
 Understood difference between archive vs compression
 Practiced tar, gzip, and zip
 Learned safe extraction with directories
