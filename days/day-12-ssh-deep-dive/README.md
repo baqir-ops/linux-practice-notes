@@ -1,19 +1,26 @@
 ## Day 12 — SSH Deep Dive 🔐
 ## 📂 Folder Structure
 
-
+```
 Day-12-SSH-Deep-Dive/
 │── README.md
 │── images/
     ├── day12-existing-ssh-key.png
-    ├── day12-ssh-agent-working.png
-    ├── day12-key-based-login-success.png
-    ├── day12-ssh-config-alias-success.png
-    ├── day12-ssh-security-config.png
-    ├── day12-scp-transfer-success.png
-    ├── day12-rsync-sync-success.png
-    └── day12-ssh-debug-success.png
 
+    ├── day12-ssh-agent-working.png
+
+    ├── day12-key-based-login-success.png
+
+    ├── day12-ssh-config-alias-success.png
+
+    ├── day12-ssh-security-config.png
+
+    ├── day12-scp-transfer-success.png
+
+    ├── day12-rsync-sync-success.png
+
+    └── day12-ssh-debug-success.png
+```
 ## 📌 Objective
 Master Secure Shell (SSH) in real DevOps style:
 - SSH key generation
