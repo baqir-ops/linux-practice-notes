@@ -4,13 +4,21 @@ Hands-on package lifecycle management and system maintenance using APT & DPKG (U
 
 ## 🎯 Objective
 Master Linux package management in real DevOps workflow:
+
 ● Update repositories
+
 ● Upgrade system packages
+
 ● Install & remove software
+
 ● Purge configurations
+
 ● Search & inspect packages
+
 ● Identify file ownership
+
 ● Clean unused dependencies
+
 ● Free disk space
 
 ---
@@ -64,7 +72,7 @@ Upgrade installed packages to latest versions.
 sudo apt upgrade
 
 ```
-##📸 Screenshot:
+## 📸 Screenshot:
 
 ![APT Upgrade](images/day13-apt-upgrade.png)
 
@@ -176,11 +184,17 @@ df -h
 ## 🧠 Key Concepts Learned
 
 ● Difference between remove and purge
+
 ● Role of APT vs DPKG
+
 ● How to inspect installed packages
+
 ● Dependency management
+
 ● Package lifecycle control
+
 ● System cleanup and maintenance
+
 ● File-to-package mapping
 
 ---
@@ -188,18 +202,29 @@ df -h
 ## 🔥 DevOps Relevance
 
 Package management is critical in DevOps because:
+
 ● Servers require regular security updates
+
 ● CI/CD pipelines depend on system packages
+
 ● Containers use minimal base images
+
 ● Production servers must be cleaned regularly
+
 ● Debugging often requires identifying package ownership
+
 ● Automation scripts rely on predictable package states
 
 This lab strengthens real-world operational skills for:
+
 ✔ Server provisioning
+
 ✔ Infrastructure automation
+
 ✔ Security patch management
+
 ✔ System troubleshooting
+
 ✔ Environment consistency
 
 ## 📊 Practical Workflow Simulated
@@ -207,9 +232,13 @@ Update → Upgrade → Install → Remove → Purge → Inspect → Clean → Ve
 Complete lifecycle of package management executed successfully.
 
 ## ✅ Status
+
 ✔ Completed
+
 ✔ Tested
+
 ✔ Documented
+
 ✔ Production-relevant
 
 ---
@@ -230,4 +259,4 @@ Purge configurations
 Search & inspect packages
 Identify file ownership
 Clean unused dependencies
-Free disk space
+Free disk space.
