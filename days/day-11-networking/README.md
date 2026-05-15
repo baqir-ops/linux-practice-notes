@@ -194,13 +194,13 @@ curl -I localhost
 sudo systemctl start apache2
 ```
 
-![Start Apache](images/day11-step6-start-apache.png)
+![Start Apache](images/day11-step6-start-apache2.png)
 
 ---
 
 ## 🟢 Apache Running
 
-![Apache Running](images/day11-step6-apache-running.png)
+![Apache Running](images/day11-step6-apache2-running.png)
 
 ---
 
