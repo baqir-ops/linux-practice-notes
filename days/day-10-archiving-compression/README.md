@@ -97,22 +97,22 @@ unzip files.zip -d extract-zip
 
 ###  📘 Commands Summary
 
-# Create tar archive
+## Create tar archive
 tar -cvf files.tar file1.txt file2.txt logs.log
 
-# Create tar.gz archive
+## Create tar.gz archive
 tar -czvf files.tar.gz file1.txt file2.txt logs.log
 
-# Extract tar
+## Extract tar
 tar -xvf files.tar
 
-# Extract tar.gz
+## Extract tar.gz
 tar -xzvf files.tar.gz
 
-# Create zip archive
+## Create zip archive
 zip files.zip file1.txt file2.txt logs.log
 
-# Extract zip
+## Extract zip
 unzip files.zip
 
 ## ✅ Learning Outcome
